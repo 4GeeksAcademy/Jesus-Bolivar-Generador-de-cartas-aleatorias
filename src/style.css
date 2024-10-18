@@ -1,1 +1,39 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+
+body {
+  background-color: green;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+}
+.card {
+  background-color: white;
+  width: 400px;
+  height: 500px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.sticks {
+  font-size: 4rem;
+  display: flex;
+}
+
+.stickDown {
+  transform: rotate(3.142rad);
+  align-items: end;
+}
+
+.number {
+  font-size: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+/* color para los iconos  */
+.red {
+  color: red;
+}
