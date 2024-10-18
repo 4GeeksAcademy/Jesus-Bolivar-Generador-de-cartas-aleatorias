@@ -2,7 +2,7 @@
 
 body {
   background-color: green;
-  height: 100vh;
+  height: 100dvh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -20,11 +20,13 @@ body {
 .sticks {
   font-size: 4rem;
   display: flex;
+  margin-top: -20px;
 }
 
 .stickDown {
   transform: rotate(3.142rad);
   align-items: end;
+  margin-bottom: -20px;
 }
 
 .number {
